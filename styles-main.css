@@ -1,0 +1,9 @@
+* {
+font-family: arial, sans-serif;
+}
+a, a:visited {
+text-decoration: none;
+color: #4f0;
+}
+a:hover {color: #f84;}
+a:active {color: #0cc;}
