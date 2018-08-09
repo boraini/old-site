@@ -26,6 +26,7 @@ margin: 5vh auto;
 border: 0;
 padding: 10px;
 max-width: 980px;
+background-color: #fff;
 }
 .profile_left {
 width: 10%;
@@ -35,4 +36,5 @@ display: inline-block;
 width: 88%;
 display: inline-block;
 color: #888;
+font-size: 2em;
 }
