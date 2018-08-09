@@ -1,3 +1,4 @@
+/* Page general */
 * {
 font-family: arial, sans-serif;
 }
@@ -7,3 +8,30 @@ color: #4f0;
 }
 a:hover {color: #f84;}
 a:active {color: #0cc;}
+
+/* Template */
+html, body {
+margin: 0;
+padding: 0;
+left: 0;
+top: 0;
+transform: none;
+width: 100%;
+width: 100vw;
+height: 100vh;
+}
+.pageblock {
+margin: 5vh auto;
+border: 0;
+padding: 10px;
+max-width: 980px;
+}
+.profile_left {
+width: 30%;
+display: inline-block;
+}
+.profile_right {
+width: 68%;
+display: inline-block;
+color: grey;
+}
