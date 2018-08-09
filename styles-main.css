@@ -20,6 +20,7 @@ width: 100%;
 width: 100vw;
 height: 100vh;
 }
+body {background-color: #208;}
 .pageblock {
 margin: 5vh auto;
 border: 0;
@@ -27,11 +28,11 @@ padding: 10px;
 max-width: 980px;
 }
 .profile_left {
-width: 30%;
+width: 10%;
 display: inline-block;
 }
 .profile_right {
-width: 68%;
+width: 88%;
 display: inline-block;
-color: grey;
+color: #888;
 }
