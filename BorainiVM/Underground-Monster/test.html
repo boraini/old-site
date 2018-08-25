@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>Underground Monster</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="game.js"></script>
+<style>
+html, body {margin: 0; left: 0; top: 0; transform: none; -webkit-transform: none; vertical-align: top;}
+</style>
+</head>
+<body>
+<object id="textures" data="textures.svg" type="image/svg+xml" onload="start()" style="margin: 0; padding: 0; width: 0; height: 0;">
+Your browser doesn't support SVG
+</object>
+<div id="gamewrapper" style="position: fixed; left: 0; top: 50%; padding: 0; width: 100vw; text-align: center; transform: translateY(-50%);">
+<canvas id="game" style="background-color: black; width: auto; height: auto;"></canvas>
+</div>
+<div id="controls" style="position: fixed; left: 0; bottom: 0; padding: 0; width: 100vw; text-align: center; background-color: #88888888;">
+<input type="checkbox"/>Show Joystick
+<span id="maincontrols"></span><span id="gamecontrols" style="display: none;"><button onclick="changeSkin(1)" title="Change Skin">Skin 1</button><button onclick="changeSkin(2)" title="Change Skin">Skin 2</button><button onclick="changeSkin(3)" title="Change Skin">Skin 3</button></span>
+</div>
+</body>
+</html>
