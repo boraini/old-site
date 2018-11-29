@@ -1,0 +1,47 @@
+/*mimics abmdevandgames.blogspot.com*/
+@keyframes boxenter {
+  0% {opacity: 0; transform: translateY(100vh); -webkit-transform: translateY(100vh); -moz-transform: translateY(100vh);}
+  100% {opacity: default; transform: none; -webkit-transform: none; -moz-transform: none;}
+}
+.blogbody {
+  margin: 10px auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 5px;
+  background-color: #f8f8f8;
+  font-size: 12pt;
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #111;
+  animation-name: boxenter;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+.blogbody .img-lean-left {
+    float: left;
+    margin: 5px;
+    margin-left: -5px;
+}
+.blogbody .img-lean-right {
+    float: right;
+    margin: 5px;
+    margin-right: -5px;
+}
+@media only screen and (max-width: 600px) {
+    .blogbody .img-lean-left, .blogbody .img-lean-right {
+        margin: auto;
+        display: block;
+    }
+    .blogbody .img-lean-left:before {
+        display: inline-block;
+        width: 50vw;
+        background-color: #888;
+        height: 1em;
+    }
+    .blogbody .img-lean-right:after {
+        display: inline-block;
+        width: 50vw;
+        background-color: #888;
+        height: 1em;
+    }
+}
