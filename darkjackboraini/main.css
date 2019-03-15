@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14pt;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.pagespan {
+  margin: 0;
+  border: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.pagespan h1, .pagespan h2, .pagespan h3, .pagespan h4, .pagespan h5, .pagespan h6 {
+  text-transform: uppercase;
+}
+header {
+  padding: 10px;
+  background: linear-gradient(rgb(212, 159, 0), rgb(172, 129, 0));
+  color: white;
+  font-size: 36pt;
+  text-transform: none !important;
+}
+nav {
+  padding: 0.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  background-color: black;
+  color: white;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+}
+nav :first-child {background-color: rgba(255, 255, 255, 0.5);}
+nav a {
+  display: inline-block;
+  padding: 0.2em;
+  margin: 0;
+  margin-right: 2px;
+  transition: background-color 0.5s, color 0.5s;
+  text-decoration: none;
+  color: inherit;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+@media screen and (min-width: 900px) {
+  header {
+    padding: 30px !important;
+  }
+  .pagespan {
+    padding: 30px;
+  }
+}
+.redbox {
+  color: white;
+  background-color: #ff2222;
+}
+.greenbox {
+  color: white;
+  background-color: #00cc00;
+}
+.bluebox {
+  color: white;
+  background-color: #2222ff;
+}
+.mintbox {
+  color: black;
+  background-color: #66ff88;
+}
